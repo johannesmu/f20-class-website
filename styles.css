@@ -1,7 +1,10 @@
+html, body { min-height: 100vh;}
 body {
   background-color: bisque;
   font-family: 'Raleway', sans-serif;
   margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .header {
   background-color: rgba(13, 0, 255, 1);
@@ -13,7 +16,9 @@ body {
   padding: 15px;
 }
 .navigation {
+  /* horizontally align to the right side of grid box */
   justify-self: end;
+  /* vertically align the element in the grid box */
   align-self: end;
 }
 .navigation a {
@@ -25,4 +30,24 @@ body {
 .navigation a:hover {
   background-color: white;
   color: black;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(13, 0, 255, 1);
+  color: white;
+}
+.copyright {
+  grid-column-start: 1;
+}
+.social {
+  grid-column-start: 3;
+  justify-self: end;
+}
+.social a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 32px;
+  display: inline-block;
+  padding: 15px;
 }

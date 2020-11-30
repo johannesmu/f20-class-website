@@ -57,7 +57,7 @@ body {
   grid-template-columns: repeat( 12, 1fr );
   grid-gap: 1em;
   max-width: 70vw;
-  margin: auto;
+  margin: 1em auto;
   background-color: #eeeeee;
 }
 
@@ -91,9 +91,13 @@ body {
   padding: 0 10px;
 }
 .column img {
-  max-width: 100%;
+  /* max-width: 100%; */
   width: 100%;
   height: 400px;
   object-fit: cover;
   object-position: center;
+}
+
+.grid-4 {
+  grid-column: span 4;
 }

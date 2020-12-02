@@ -1,3 +1,15 @@
 @media screen and (max-width:600px) {
-  
+  .navbutton {
+    display: block;
+  }
+  .logo {
+    width: 54px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    justify-self: start;
+    width: 100%;
+  }
 }

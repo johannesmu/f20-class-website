@@ -42,6 +42,7 @@ body {
   /* border-width: 2px; */
   justify-self: end;
   margin: 15px;
+  display: none;
 }
 .footer {
   display: grid;

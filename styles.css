@@ -31,6 +31,18 @@ body {
   background-color: white;
   color: black;
 }
+.navbutton {
+  width: 54px;
+  height: 54px;
+  font-size: 42px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-color: transparent;
+  /* border-width: 2px; */
+  justify-self: end;
+  margin: 15px;
+}
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,7 +68,7 @@ body {
   display: grid;
   grid-template-columns: repeat( 12, 1fr );
   grid-gap: 1em;
-  max-width: 70vw;
+  max-width: 90vw;
   margin: 1em auto;
   background-color: #eeeeee;
 }
@@ -101,3 +113,4 @@ body {
 .grid-4 {
   grid-column: span 4;
 }
+

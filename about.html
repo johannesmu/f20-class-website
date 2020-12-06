@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>First Web Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="graphics/location-icon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="graphics/BC_Logo_.png" class="logo">
+    <button class="navbutton">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#">Products</a>
+        <nav class="dropdown-menu">
+          <a href="product1.html">Product 1</a>
+          <a href="investment_options.html">Investment Options</a>
+          <a href="product3.html">Product 2</a>
+        </nav>
+      </div>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="content">
+    <div class="about-banner">
+      <h1>What is Bitcoin?</h1>
+    </div>
+    <div class="column grid-4">
+      <h3>History of Bitcoin</h3>
+      <img src="images/dmitry-demidko-xZJpKskRdOg-unsplash.jpg">
+      <p>Bitcoin[a] (₿) is a cryptocurrency invented in 2008 by an unknown person or group of people using the name
+        Satoshi Nakamoto and started in 2009 when its implementation was released as open-source software.
+      </p>
+    </div>
+    <div class="column grid-4">
+      <h3>How does it work?</h3>
+      <img src="images/dmitry-demidko-gOHvUWwN-hE-unsplash.jpg">
+      <p>It is a decentralized digital currency without a central bank or single administrator that can be sent from
+        user to user on the peer-to-peer bitcoin network without the need for intermediaries.Transactions are verified
+        by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. 
+      </p>
+    </div>
+    <div class="column grid-4">
+      <h3>Bitcoin As Investment</h3>
+      <img src="images/austin-distel-EMPZ7yRZoGw-unsplash.jpg">
+      <p>
+        Bitcoin has been praised and criticized. Critics noted its use in illegal transactions, the large amount of
+        electricity used by miners, price volatility, and thefts from exchanges. Some economists, including several
+        Nobel laureates, have characterized it as a speculative bubble. Bitcoin has also been used as an investment,
+        although several regulatory agencies have issued investor alerts about bitcoin.
+      </p>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="copyright">&copy; Johannes 2020</p>
+    <nav class="social">
+      <a href="https://facebook.com/testpage">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://instagram.com/testpage">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+      <a href="https://youtube.com/testpage">
+        <i class="fab fa-youtube-square"></i>
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>

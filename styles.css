@@ -147,3 +147,23 @@ body {
   grid-column: span 4;
 }
 
+/* about page */
+.about-banner {
+  background-image: url("images/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg");
+  width: 100%;
+  min-height: 50vh;
+  grid-column: span 12;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.about-banner h1 {
+  text-align: center;
+  grid-row-start: 2;
+  color: white;
+  background-color: rgba(1, 0, 14, 0.5);
+  max-width: 50vw;
+  margin: auto;
+  padding: 15px;
+}

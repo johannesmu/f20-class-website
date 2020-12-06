@@ -33,6 +33,10 @@ body {
   background-color: white;
   color: black;
 }
+.navigation .active {
+  font-weight: bold;
+  background-color: rgba(81, 60, 150, 1);
+}
 /* dropdown */
 .dropdown {
   position: relative;

@@ -239,4 +239,27 @@ body {
 .slide {
   min-height: 60vh;
   min-width: 100%;
+  display: grid;
+  /* place-items, first value is for vertical and second value is for horizontal alignment */
+  place-items: end center;
+}
+
+.one {
+  background-color: lightblue;
+}
+
+.two {
+  background-color: hotpink;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: purple;
+}
+
+.five {
+  background-color: lightgreen;
 }

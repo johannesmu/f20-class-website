@@ -193,6 +193,12 @@ body {
   margin: auto;
   padding: 15px;
 }
+.phone {
+  padding: 0.5em;
+  background-color: black;
+  color: #cccccc;
+  text-decoration: none;
+}
 
 #contact-form {
   min-width: 40vw;

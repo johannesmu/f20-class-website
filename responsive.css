@@ -40,4 +40,8 @@
     max-height: 300px;
     position: static;
   }
+  .phone {
+    margin: 0 10px 30px 10px;
+    display: inline-block;
+  }
 }

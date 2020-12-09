@@ -230,4 +230,13 @@ body {
   justify-content: space-between;
 }
 
+/* slideshow */
+.slideshow {
+  grid-column: span 12;
+  margin-bottom: 30px;
+}
 
+.slide {
+  min-height: 60vh;
+  min-width: 100%;
+}

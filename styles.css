@@ -243,24 +243,38 @@ body {
   display: grid;
   /* place-items, first value is for vertical and second value is for horizontal alignment */
   place-items: end center;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide h2 {
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 32px;
+  padding: 15px;
 }
 
 .one {
   background-color: lightblue;
+  background-image: url('slides/andre-francois-mckenzie-9qpCNwDeBVU-unsplash.jpg');
 }
 
 .two {
   background-color: hotpink;
+  background-image: url('slides/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg');
 }
 
 .three {
   background-color: yellow;
+  background-image: url('slides/chris-liverani-dBI_My696Rk-unsplash.jpg');
 }
 
 .four {
   background-color: purple;
+  background-image: url('slides/thought-catalog-Xeo_7HSwYsA-unsplash.jpg');
 }
 
 .five {
   background-color: lightgreen;
+  background-image: url('slides/aleksi-raisa-y-BIhyjjHv4-unsplash.jpg');
 }

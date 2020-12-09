@@ -230,4 +230,45 @@ body {
   justify-content: space-between;
 }
 
+/* slideshow */
+.slideshow {
+  grid-column: span 12;
+  margin-bottom: 2em;
+}
+
+.slide {
+  min-height: 60vh;
+  display: grid;
+  place-items: end center;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide h1 {
+  color: #cccccc;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5em;
+}
+
+.one {
+  background-image: url('slides/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg');
+}
+
+.two {
+  background-image: url('slides/andre-francois-mckenzie-9qpCNwDeBVU-unsplash.jpg')
+}
+
+.three {
+  background-image: url('slides/austin-distel-744oGeqpxPQ-unsplash.jpg');
+}
+
+.four {
+  background-image: url('slides/dmitry-demidko-eBWzFKahEaU-unsplash.jpg');
+}
+
+.five {
+  background-image: url('slides/icons8-team-sBbm92cRIQo-unsplash.jpg');
+}
+
 

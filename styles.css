@@ -278,3 +278,13 @@ body {
   background-color: lightgreen;
   background-image: url('slides/aleksi-raisa-y-BIhyjjHv4-unsplash.jpg');
 }
+
+/* map */
+.map {
+  min-width: 100%;
+  min-height: 500px;
+}
+
+.padding {
+  padding-right: 10px;
+}

@@ -151,6 +151,15 @@ body {
 .grid-4 {
   grid-column: span 4;
 }
+.grid-3 {
+  grid-column: span 3;
+}
+.grid-9 {
+  grid-column: span 9;
+}
+.grid-12 {
+  grid-column: span 12;
+}
 
 /* about page */
 .about-banner {
@@ -287,4 +296,12 @@ body {
 
 .padding {
   padding-right: 10px;
+}
+
+/* video */
+.video {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 240px;
+  max-height: 100%;
 }

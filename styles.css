@@ -261,6 +261,10 @@ body {
   background-color: rgba(0,0,0,0.5);
   font-size: 32px;
   padding: 15px;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .one {
